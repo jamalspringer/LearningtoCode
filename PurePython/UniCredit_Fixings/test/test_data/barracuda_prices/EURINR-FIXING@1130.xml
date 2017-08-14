@@ -1,0 +1,1 @@
+<StandardBenchmark benchmarkDate="2017-04-03" benchmarkTime="13:51" curve="BA-FIXING" majorCcy="EUR" minorCcy="INR" noNamespaceSchemaLocation="curve.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Rate ask="70.646" bid="70.646" mid="70.646" tenor="SP" /></StandardBenchmark>
