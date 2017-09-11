@@ -1,0 +1,16 @@
+#Should be located @ /usr/lib/systemd/system/ipython.service on RHEL7
+#Template for Ipython notebook service
+[Unit]
+Description=Ipython Notebook Service
+
+[Service]
+PIDFile=/var/run/ipython.pid
+#ExecStart=/bin/ipython notebook --ip 10.60.192.93 --port 8888 --config=/home/ex62217/.jupyter/jupyter_notebook_config.py
+ExecStart=/bin/su - ex62217 -c "ipython notebook --ip 10.60.192.93 --port 8888 --config=/home/ex62217/.jupyter/jupyter_notebook_config.py"
+WorkingDirectory=/home/ex62217/CodeRepo/Ipython/
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+RestartSec=42s
+
+[Install]
+WantedBy=multi-user.target

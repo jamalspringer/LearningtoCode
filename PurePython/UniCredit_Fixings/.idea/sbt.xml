@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherEnabled" value="true" />
+    <option name="customLauncherPath" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar" />
+    <option name="vmParameters" value="-Dhttp.proxyHost=proxymuc.internal.unicredit.eu -Dhttp.proxyPort=80 -Dhttp.proxyUser=EX61867 -Dhttp.proxyPassword=Inc0nc3iv4bl3! -Dhttps.proxyHost=proxymuc.internal.unicredit.eu -Dhttps.proxyPort=80 -Dhttps.proxyUser=EX61867 -Dhttps.proxyPassword=Inc0nc3iv4bl3!" />
+  </component>
+</project>
