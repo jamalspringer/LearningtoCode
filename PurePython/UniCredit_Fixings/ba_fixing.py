@@ -60,7 +60,7 @@ class ConfigurationProperties:
     """
     Path to upload the Bloomberg request file to
     """
-    @property
+    @property/
     def bloomberg_upload_path(self):
         return 'bloomberg.upload.path'
 
