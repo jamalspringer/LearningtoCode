@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CodeRepo.iml" filepath="$PROJECT_DIR$/.idea/CodeRepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ruby/.idea/Ruby.iml" filepath="$PROJECT_DIR$/Ruby/.idea/Ruby.iml" />
     </modules>
   </component>
 </project>
