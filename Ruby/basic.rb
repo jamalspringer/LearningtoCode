@@ -20,3 +20,19 @@ family = {
 family.each do |name, age|
   puts "#{name} is currently #{age} years old"
 end
+
+puts "FYI - The gift you buy a person depends on their character"
+present = gets.chomp
+
+case present
+  when "Deonn"
+    puts "AUDI or BMW"
+  when "Jamal"
+    puts "Cosy 3-4 bed house, all expenses paid"
+  when "Javon"
+    puts "Trainers and cash ££$$££$$"
+  when "Shemaiah"
+    puts "Money and trainers"
+  else
+    puts "No idea mate"
+end
