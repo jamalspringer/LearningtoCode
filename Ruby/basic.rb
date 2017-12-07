@@ -36,3 +36,10 @@ case present
   else
     puts "No idea mate"
 end
+
+def yeelder
+  puts "Only prints this and whatever you pass me in a block"
+end
+
+yeelder
+
