@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c55cf5ff-564b-4f9a-ac43-da18478106da" name="Default" comment="Updated the userID creation step to create username as lower case string, rather than a mixture of upper &amp; lower case.">
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic2.rb" />
+    <list default="true" id="c55cf5ff-564b-4f9a-ac43-da18478106da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/basic.rb" afterPath="$PROJECT_DIR$/basic.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -163,7 +161,7 @@
       <workItem from="1512516469580" duration="81000" />
       <workItem from="1512517106466" duration="16000" />
       <workItem from="1512595479166" duration="2761000" />
-      <workItem from="1512683242476" duration="1640000" />
+      <workItem from="1512683242476" duration="1690000" />
     </task>
     <task id="LOCAL-00001" summary="Added a usage of the Ruby case method">
       <created>1512597517701</created>
@@ -179,15 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512598718690</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created basic2, which just has one yield method, for reference">
+      <created>1512686231734</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512686231734</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4498000" />
+    <option name="totallyTimeSpent" value="4548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="53" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -195,7 +199,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35721704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35721704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -218,7 +222,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added a usage of the Ruby case method" />
     <MESSAGE value="Updated the userID creation step to create username as lower case string, rather than a mixture of upper &amp; lower case." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the userID creation step to create username as lower case string, rather than a mixture of upper &amp; lower case." />
+    <MESSAGE value="Created basic2, which just has one yield method, for reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created basic2, which just has one yield method, for reference" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
