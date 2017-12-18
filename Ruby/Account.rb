@@ -34,6 +34,6 @@ class Account
   end
 end
 
-checking_account = Account.new("Jamal Springer", 10000)
+checking_account = Account.new("Jamal Springer", 6569.86)
 puts checking_account.balance
 
