@@ -11,19 +11,19 @@ class Human
 
   public
 
-  def greet(person)
+  def greet(person="")
     puts "Hello #{person}, How are you ?"
   end
 
-  def introduce(person)
+  def introduce(person="")
     puts "Hello #{person}, my name is #{@name},i'm #{@age} years old & i'm #{@nationality}"
   end
 
-  def conversate(words)
+  def conversate(words="")
     puts words
   end
 
-  def study(subject, hours=1)
+  def study(subject="Software development", hours=1)
     if hours == 1
       puts "Currently studying #{subject} for an hour"
     else
