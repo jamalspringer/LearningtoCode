@@ -1,9 +1,9 @@
 
 class Human
-  def initialize(name, age, sex, nationality, race)
+  def initialize(name, age, gender, nationality, race)
     @name = name
     @age = age
-    @sex = sex
+    @gender = gender
     @nationality = nationality
     @race = race
   end
